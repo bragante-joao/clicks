@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+.click{
+  cursor: pointer;
+  color: rgb(143, 212, 143);
+  background-color: rgb(14, 134, 14);
+  height: 90px;
+  width: 190px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 34pt;
+  margin-top: 40px;
+  border-radius: 5%;
+  padding: 8px;
+  transition: transform 0.2s ease;
+}
+.click:hover{
+  transform: scale(1.1);
+}
+#game{
+  background-image: linear-gradient(to right,rgb(166, 219, 117),rgb(91, 223, 98));
+  text-align: center;
+  margin: auto;
+  width: 970px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 30px;
+    
+}
+.yourmoney{
+  font-family: 'Open Sans Condensed';
+  font-size: 32pt;
+  margin-right: 70px;
+}
+#preço{
+  font-family:'Open Sans Condensed' ;
+  font-size: 29pt;
+  margin-left: 20px;
+}
+#upgrades{
+  height: 300px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 5%;
+  margin-left: 210px;
+  background-color: rgb(86, 85, 173);
+  width: 600px;
+}
+.botao{
+  font-size: 19pt;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 120px;
+  height: 60px;
+  padding: 4px;
+  border-radius: 8%;
+  margin-top: 20px;
+  margin-left: 37px;
+}
